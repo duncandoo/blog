@@ -1,0 +1,6 @@
+publishDir = "public"
+
+baseURL = "http://duncan.is/"
+languageCode = "en-gb"
+title = "Duncan's New Hugo Photo Site"
+theme = "ananke"
