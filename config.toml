@@ -2,5 +2,51 @@ publishDir = "public"
 
 baseURL = "http://duncan.is/"
 languageCode = "en-gb"
-title = "Duncan's New Hugo Photo Site"
-theme = "ananke"
+title = "Making a Pile of Photos"
+theme = "hugo-nederburg-theme"
+
+[params]
+  slogan = "duncan.is ..."
+  description = "A photo blog by Duncan" # meta description
+  copyright = "&copy;2018 Duncan McPherson"
+  author = "Duncan McPherson"
+  authorLink = "http://duncan.is/"
+  bio = [
+    "Duncan is ... The photopgrapher, author and publisher of this site."
+  ]
+
+
+  # Contact page
+     # Since this template is static, the contact form uses www.formspree.io as a
+     # proxy. The form makes a POST request to their servers to send the actual
+     # email. Visitors can send up to a 1000 emails each month for free.
+     #
+     # What you need to do for the setup?
+     #
+     # - set your email address under 'email' below (it is also used in Gravatar for the bio).
+     # - upload the generated site to your server
+     # - send a dummy email yourself to confirm your account
+     # - click the confirm link in the email from www.formspree.io
+     # - you're done. Happy mailing!
+  email = "me@duncan.is"
+
+  # Nav links in the side bar
+  [[params.navlinks]]
+  name = "Home"
+  url = ""
+
+  [[params.navlinks]]
+  name = "About"
+  url = "about/"
+
+  [[params.navlinks]]
+  name = "Get in touch"
+  url = "contact/"
+
+  [params.social]
+  facebook      = "https://www.facebook.com/duncan.mcpherson.98"
+  email         = "me@duncan.is"
+  twitter       = "https://twitter.com/duncandoo"
+  instagram     = "https://www.instagram.com/duncandoo2/"
+  github        = "https://github.com/duncandoo"
+
