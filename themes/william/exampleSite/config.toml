@@ -2,8 +2,16 @@ baseURL = "http://example.org/"
 title = "My New Hugo Site"
 theme = "william"
 
+# Language config
+languageCode = "en-gb"
 defaultContentLanguage = "en-gb"
+
 [languages]
-[languages.en-gb]
-  weight = 1
-  languageCode = "en-gb"
+  [languages.en-gb]
+    weight = 1
+    lang = "en-gb"
+
+# Taxonomy config
+[taxonomies]
+  tag = "tags"
+  category = "categories"
