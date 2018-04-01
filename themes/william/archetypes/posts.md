@@ -4,7 +4,7 @@ date = {{ .Date }}
 draft = true
 tags = []
 categories = []
-image
+image = ""
 +++
 
 # The first heading

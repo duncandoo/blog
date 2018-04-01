@@ -2,5 +2,10 @@
 <html>
 <body>
 	<p>Hello, World from william themed duncan.is...</p>
+	{{ range first 10 .Data.Pages }}
+	    <h1>
+	  	    {{ .Title }}
+	    </h1>
+	{{ end }}
 </body>
 </html>
