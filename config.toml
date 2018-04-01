@@ -1,6 +1,6 @@
-publishDir = "public"
-
 baseURL = "http://duncan.is/"
 languageCode = "en-gb"
-title = "Duncan's New Hugo Photo Site"
-theme = "ananke"
+title = "Making a Pile of Photos"
+theme = "william"
+MetaDataFormat = "toml"
+
