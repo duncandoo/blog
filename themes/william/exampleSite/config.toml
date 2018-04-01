@@ -1,4 +1,9 @@
 baseURL = "http://example.org/"
-languageCode = "en-gb"
 title = "My New Hugo Site"
 theme = "william"
+
+defaultContentLanguage = "en-gb"
+[languages]
+[languages.en-gb]
+  weight = 1
+  languageCode = "en-gb"

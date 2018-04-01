@@ -1,6 +1,9 @@
 baseURL = "http://duncan.is/"
-languageCode = "en-gb"
 title = "Making a Pile of Photos"
 theme = "william"
-MetaDataFormat = "toml"
 
+defaultContentLanguage = "en-gb"
+[languages]
+[languages.en-gb]
+  weight = 1
+  languageCode = "en-gb"
