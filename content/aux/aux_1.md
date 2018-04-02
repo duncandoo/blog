@@ -1,6 +1,6 @@
  +++
-title = "{{ replace .Name "-" " " | title }}"
-date = {{ .Date }}
+title = "Aux_1"
+date = 2018-04-02T19:15:15+01:00
 draft = true
 type = "post"
 tags = []

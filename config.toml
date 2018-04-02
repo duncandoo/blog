@@ -14,4 +14,3 @@ defaultContentLanguage = "en-gb"
 # Taxonomy config
 [taxonomies]
   tag = "tags"
-  category = "categories"

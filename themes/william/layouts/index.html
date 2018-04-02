@@ -2,7 +2,8 @@
 <html>
 <body>
 	<p>Hello, World from william themed duncan.is...</p>
-	{{ range first 10 .Data.Pages }}
+
+	{{ range (where .Data.Pages "Type" "post") }}
 	    <h1>
 	  	    {{ .Title }}
 	    </h1>
