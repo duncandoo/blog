@@ -1,11 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title> {{ .Title }} </title>
-</head>
-<body>
-
-	<h1> {{ .Title }} </h1>
+{{ partial "header.html" . }}
+    <h1> {{ .Title }} </h1>
+    {{ if ne .Type "meta" }} <h3>{{ .Date.Format "Monday, 02 Jan 2006" }}</h3> {{ end }}
 	{{ .Content }}
-</body>
-</html>
+{{ partial "footer.html" . }}
