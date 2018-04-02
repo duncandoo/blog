@@ -2,7 +2,7 @@
 title = "About"
 date = 2018-04-02T18:04:38+01:00
 draft = false
-type = "about"
+type = "meta"
 tags = []
 categories = []
 image = ""
