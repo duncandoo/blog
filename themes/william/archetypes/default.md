@@ -1,4 +1,4 @@
- +++
++++
 title = "{{ replace .Name "-" " " | title }}"
 date = {{ .Date }}
 draft = true
@@ -10,4 +10,4 @@ image = ""
 # The first heading
 
 Lorem Ipsum...
-~               
+~
