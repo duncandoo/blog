@@ -6,6 +6,7 @@ type = "meta"
 tags = []
 categories = []
 image = ""
+description = "Things you might be interested to know about duncan.is Making a Pile of Photos."
 +++
 
 # The first thing about me is...

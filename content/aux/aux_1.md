@@ -5,6 +5,7 @@ draft = false
 type = "post"
 tags = []
 image = ""
+description = "this is a great post."
 +++
 
 # The first heading

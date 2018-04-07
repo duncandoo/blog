@@ -1,5 +1,6 @@
 baseURL = "http://duncan.is/"
 title = "Making a Pile of Photos"
+copyright = "&copy; {year} Duncan McPherson, <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-sa/4.0/\">CC-BY-NC-SA</a>."
 theme = "william"
 
 # Language config
@@ -10,6 +11,17 @@ defaultContentLanguage = "en-gb"
   [languages.en-gb]
     weight = 1
     lang = "en-gb"
+
+# Author - extra authors can be added
+[author]
+  name = "Duncan McPherson"
+  bio = ""
+  [social]
+    twitter = ""
+
+# Site parameters
+[params]
+  description = "A pile of photos that I took and still like."
 
 # Taxonomy config
 [taxonomies]

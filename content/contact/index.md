@@ -6,6 +6,7 @@ type = "meta"
 tags = []
 categories = []
 image = ""
+description = "How to contact duncan.is Making a Pile of Photos."
 +++
 
 # The first way to get hold of me is...

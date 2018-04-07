@@ -1,0 +1,18 @@
+{{ define "main" }}
+  <p>Hello, World from william themed duncan.is...</p>
+  
+  <h2>These are the titles of posts</h2>
+	{{ range (where .Data.Pages "Type" "post" ) }}
+    <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+	{{ end }}
+
+  <h2>These are the section headings</h2>
+  {{ range .Site.Sections }}
+    <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+	{{ end }}
+
+	<h2>These are the top level navlinks</h2>
+  {{ range ( where .Site.Pages "Type" "meta" ) }}
+    <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+	{{ end }}
+{{ end }}
