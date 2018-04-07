@@ -16,8 +16,21 @@ defaultContentLanguage = "en-gb"
 [author]
   name = "Duncan McPherson"
   bio = ""
+  email = ""
   [social]
-    twitter = ""
+    facebook      = "full profile url in facebook"
+    github        = "full profile url in github"
+    googleplus    = "full profile url in googleplus"
+    instagram     = "full profile url in instagram"
+    linkedin      = "full profile url in linkedin"
+    pinterest     = ""
+    skype         = ""
+    stackoverflow = "full profile url in stackoverflow"
+    twitter       = "full profile url in twitter"
+    website       = ""
+    youtube       = ""
+    # add any others you like in here, but be prepared to do some work to make sure they function
+
 
 # Site parameters
 [params]
