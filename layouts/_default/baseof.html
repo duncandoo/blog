@@ -7,23 +7,28 @@
     <meta name="author" content="{{ .Site.Author.name }}">
     <meta copyright="{{ replace .Site.Copyright "{year}" (.Lastmod.Format "2006") | safeHTML }}">
     <meta name="description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Description }}{{ end }}">
+    <link rel="canonical" href="{{ .Permalink }}"/>
+    <link rel="icon" href="{{ "favicon.ico" | absURL }}">
   </head>
   <body>
     {{ block "topnav" . }}
-    <h2>These are the top level navlinks</h2>
-    {{ range ( where .Site.Pages "Type" "meta" ) }}
-      <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-    {{ end }}
+      <h2>These are the top level navlinks</h2>
+      {{ range ( where .Site.Pages "Type" "meta" ) }}
+        <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+      {{ end }}
+      <h2>These are the social links</h2>
+      {{ partial "social.html" . }}
     {{ end }}
 
     {{ block "main" . }}
     {{ end }}
 
     {{ block "footer" . }}
-    <h2>These are the section headings</h2>
-    {{ range .Site.Sections }}
-      <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-    {{ end }}
+      <h2>These are the section headings</h2>
+      {{ range .Site.Sections }}
+        <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+      {{ end }}
+        <img id="avatar" src="https://www.gravatar.com/avatar/{{ md5 .Site.Author.email }}?s=100&d=identicon">
     {{ end }}
   </body>
 </html>

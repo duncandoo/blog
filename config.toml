@@ -16,20 +16,23 @@ defaultContentLanguage = "en-gb"
 [author]
   name = "Duncan McPherson"
   bio = ""
-  email = ""
-  [social]
-    facebook      = "full profile url in facebook"
-    github        = "full profile url in github"
-    googleplus    = "full profile url in googleplus"
-    instagram     = "full profile url in instagram"
-    linkedin      = "full profile url in linkedin"
-    pinterest     = ""
-    skype         = ""
-    stackoverflow = "full profile url in stackoverflow"
-    twitter       = "full profile url in twitter"
-    website       = ""
-    youtube       = ""
-    # add any others you like in here, but be prepared to do some work to make sure they function
+  email = "me@duncan.is" # also used to find gravatar
+  website = "http://duncan.is"
+
+# Social links, these could also be deinfe dper author
+[social]
+  facebook      = "duncandoo"
+  flickr        = "duncandoo"
+  github        = "duncandoo"
+  # googleplus    = "username"
+  instagram     = "duncandoo2"
+  # linkedin      = "username"
+  pinterest     = "duncandooo"
+  skype         = "duncandoo2"
+  # stackoverflow = "username"
+  twitter       = "duncandoo"
+  # youtube       = "username"
+  # add any others you like in here, but be prepared to do some work to make sure they function
 
 
 # Site parameters

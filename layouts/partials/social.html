@@ -1,0 +1,33 @@
+{{ with .Site.Social.facebook -}}
+<a href="https://facebook.com/{{.}}" title="Facebook"><i class="fa fa-facebook" aria-hidden="true">facebook</i></a>&nbsp;
+{{- end }}
+{{ with .Site.Social.flickr -}}
+<a href="https://flickr.com/photos/{{.}}" title="Flickr"><i class="fa fa-flickr" aria-hidden="true"></i></a>&nbsp;
+{{- end }}
+{{ with .Site.Social.github -}}
+<a href="https://github.com/{{.}}" title="GitHub"><i class="fa fa-github" aria-hidden="true"></i></a>&nbsp;
+{{- end }}
+{{ with .Site.Social.googleplus -}}
+<a href="https://plus.google.com/+{{.}}" title="Google+"><i class="fa fa-google-plus" aria-hidden="true"></i></a>&nbsp;
+{{- end }}
+{{ with .Site.Social.instagram -}}
+<a href="https://instagram.com/{{.}}" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>&nbsp;
+{{- end }}
+{{ with .Site.Social.linkedin -}}
+<a href="https://linkedin.com/in/{{.}}" title="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a>&nbsp;
+{{- end }}
+{{ with .Site.Social.pinterest -}}
+<a href="https://pinterest.com/{{.}}" title="Pinterest"><i class="fa fa-pinterest" aria-hidden="true"></i></a>&nbsp;
+{{- end }}
+{{ with .Site.Social.skype -}}
+<a href="skype:{{ . }}?chat" title="Skype"><i class="fa fa-skype" aria-hidden="true"></i></a>&nbsp;
+{{- end }}
+{{ with .Site.Social.stackoverflow -}}
+<a href="https://stackoverflow.com/users/{{.}}" target="_blank" title="Stack Overflow" aria-hidden="true"><i class="fa fa-stack-overflow"></i></a>&nbsp;
+{{- end }}
+{{ with .Site.Social.twitter -}}
+<a href="https://twitter.com/{{.}}" target="_blank" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>&nbsp;
+{{- end }}
+{{ with .Site.Social.youtube -}}
+<a href="https://youtube.com/{{.}}" target="_blank" title="YouTube"><i class="fa fa-youtube" aria-hidden="true"></i></a>&nbsp;
+{{- end }}

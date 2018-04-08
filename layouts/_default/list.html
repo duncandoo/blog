@@ -6,5 +6,7 @@
 {{ define "main" }}
   <h1>This is the list of {{ .Title }} photos.</h1>
   {{ if ne .Type "meta" }} <h3>{{ .Date.Format "Monday, 02 Jan 2006" }}</h3> {{ end }}
-	{{ .Content }}
+  {{ range .Paginator.Pages }}
+    <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+  {{ end }}
 {{ end }}
